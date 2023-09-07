@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-09-07T01:20:06.731Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="VPCGkulWbCNVIlervzKh" version="21.7.2" type="device">
+  <diagram name="Page-1" id="zJlucrnwKl1vjc2aKWdt">
+    <mxGraphModel dx="1908" dy="1204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-1" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="610" y="730" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJDZONrvaUzHiXf1bPKU-2" target="uJDZONrvaUzHiXf1bPKU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="140" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJDZONrvaUzHiXf1bPKU-3" target="uJDZONrvaUzHiXf1bPKU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-3" value="DECLARE angulo1, angulo2 e angulo_alvo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJDZONrvaUzHiXf1bPKU-5" target="uJDZONrvaUzHiXf1bPKU-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-5" value="&quot;Informe o primeiro angulo&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJDZONrvaUzHiXf1bPKU-7" target="uJDZONrvaUzHiXf1bPKU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-7" value="&quot;Informe o segundo angulo&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJDZONrvaUzHiXf1bPKU-8" target="uJDZONrvaUzHiXf1bPKU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-8" value="LEIA angulo2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="uJDZONrvaUzHiXf1bPKU-9" target="uJDZONrvaUzHiXf1bPKU-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-9" value="LEIA angulo1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJDZONrvaUzHiXf1bPKU-13" target="uJDZONrvaUzHiXf1bPKU-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-13" value="angulo_alvo = 180 - (angulo1 + angulo2)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uJDZONrvaUzHiXf1bPKU-15" target="uJDZONrvaUzHiXf1bPKU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uJDZONrvaUzHiXf1bPKU-15" value="&quot;O terceiro angulo é {angulo_alvo}" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.125;" vertex="1" parent="1">
+          <mxGeometry x="600" y="610" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

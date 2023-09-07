@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2023-09-07T00:27:00.044Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="UovSr6BgRxy5fsTZhkcp" version="21.7.2" type="device">
+  <diagram name="Page-1" id="VyhvyDNysNRiYH4yT_4d">
+    <mxGraphModel dx="2120" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="k6yPTM-f09uSBizpPcTd-1" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="450" y="830" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-2" target="k6yPTM-f09uSBizpPcTd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-3" value="DECLARE ano_de_nascimento, ano_atual, em_anos, em_meses, em_semanas, em_dias" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="270" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-5" target="k6yPTM-f09uSBizpPcTd-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-5" value="&quot;Informe seu ano de nascimento&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-6" target="k6yPTM-f09uSBizpPcTd-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-6" value="&lt;div&gt;LEIA&lt;/div&gt;&lt;div&gt;ano_de_nascimento&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-8" target="k6yPTM-f09uSBizpPcTd-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-8" value="&quot;Informe o ano atual&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-11" target="k6yPTM-f09uSBizpPcTd-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-11" target="k6yPTM-f09uSBizpPcTd-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-11" target="k6yPTM-f09uSBizpPcTd-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-11" target="k6yPTM-f09uSBizpPcTd-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-11" value="&lt;div&gt;LEIA&lt;/div&gt;ano_atual" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="550" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-13" value="em_dias = em_anos * 365" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="680" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-14" value="em_semanas = em_anos * 52" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="590" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-15" value="em_meses = em_anos * 12" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-16" target="k6yPTM-f09uSBizpPcTd-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-16" value="em_anos = ano_atual - ano_de_nascimento" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="410" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="k6yPTM-f09uSBizpPcTd-21" target="k6yPTM-f09uSBizpPcTd-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k6yPTM-f09uSBizpPcTd-21" value="&lt;div&gt;&quot;Sua idade em:&lt;/div&gt;&lt;div&gt;Anos: {em_anos}&lt;/div&gt;&lt;div&gt;Meses: {em_mese}&lt;/div&gt;&lt;div&gt;Semanas: {em_semanas}&lt;/div&gt;&lt;div&gt;Dias: {em_dias}&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="800" width="180" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

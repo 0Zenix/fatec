@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-09-06T22:54:52.997Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="EdEQwoTmiiQlxN8JmSyY" version="21.7.2" type="device">
+  <diagram name="Page-1" id="WIgKNy6XDVfT0gL5FTbq">
+    <mxGraphModel dx="954" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-1" target="axeQ7c3npuAa6oKIK3n3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-1" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="108" y="398" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-2" target="axeQ7c3npuAa6oKIK3n3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-2" value="&quot;Escreva o primeiro numero&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.125;" vertex="1" parent="1">
+          <mxGeometry x="278" y="398" width="133.33" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-4" target="axeQ7c3npuAa6oKIK3n3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-4" value="DECLARE num1. num2, num3 e resultado como float" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="98" y="518" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-8" target="axeQ7c3npuAa6oKIK3n3-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-8" value="LEIA num1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="284.65999999999997" y="518" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-10" target="axeQ7c3npuAa6oKIK3n3-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-10" value="&quot;Escreva o segundo numero&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.125;" vertex="1" parent="1">
+          <mxGeometry x="448" y="398" width="133.33" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-11" target="axeQ7c3npuAa6oKIK3n3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-11" value="LEIA num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="454.65999999999997" y="518" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-12" target="axeQ7c3npuAa6oKIK3n3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-12" value="&quot;Escreva o terceiro numero&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.125;" vertex="1" parent="1">
+          <mxGeometry x="618" y="398" width="133.33" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-13" target="axeQ7c3npuAa6oKIK3n3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-13" value="LEIA num3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="624.66" y="518" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-18" target="axeQ7c3npuAa6oKIK3n3-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-18" value="resultado = num1 * num2 * num3;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="624.66" y="628" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="axeQ7c3npuAa6oKIK3n3-20" target="axeQ7c3npuAa6oKIK3n3-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-20" value="&quot;O Resultado da multiplicação dos números {num1}, {num2} e {num3} é {resultado}&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.13333333333333333;" vertex="1" parent="1">
+          <mxGeometry x="431.34" y="613" width="166.66" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="axeQ7c3npuAa6oKIK3n3-23" value="&lt;div&gt;FIM&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="294.65999999999997" y="628" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

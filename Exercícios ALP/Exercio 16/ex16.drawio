@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2023-09-07T01:27:12.751Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="ErX9KNVlC5BlhTKg5gjX" version="21.7.2" type="device">
+  <diagram name="Page-1" id="iOjLzp75g0PXm8VkACi5">
+    <mxGraphModel dx="1735" dy="1095" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-1" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="670" y="660" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-2" target="-9vFZiuJVyjPf7Lp1MDF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="90" y="300" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-3" target="-9vFZiuJVyjPf7Lp1MDF-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-3" value="DECLARE dinheiro, dolar, libra e marco" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-5" target="-9vFZiuJVyjPf7Lp1MDF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-5" value="&quot;Declare a quantidade de dinheiro em R$&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="530" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-8" target="-9vFZiuJVyjPf7Lp1MDF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-8" target="-9vFZiuJVyjPf7Lp1MDF-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-8" target="-9vFZiuJVyjPf7Lp1MDF-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-8" value="LEIA dinheiro" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-10" target="-9vFZiuJVyjPf7Lp1MDF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-10" value="libra = dinheiro * 3.57" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-11" target="-9vFZiuJVyjPf7Lp1MDF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-11" value="marco = dinheiro * 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-12" target="-9vFZiuJVyjPf7Lp1MDF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-12" value="dolar = dinheiro * 1.8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-9vFZiuJVyjPf7Lp1MDF-16" target="-9vFZiuJVyjPf7Lp1MDF-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-9vFZiuJVyjPf7Lp1MDF-16" value="&lt;div&gt;&quot;O dinheiro convertido é:&lt;/div&gt;&lt;div&gt;Em dólar: {dolar} USD&lt;/div&gt;&lt;div&gt;Em libra esterlina: {libra} GBP&lt;/div&gt;&lt;div&gt;Em marco alemão: {marco} DEM&quot;&lt;br&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.16666666666666666;" vertex="1" parent="1">
+          <mxGeometry x="460" y="630" width="175" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

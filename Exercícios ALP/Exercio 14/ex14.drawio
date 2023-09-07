@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-09-07T01:13:25.454Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="mnHJ7alEAq85iRr8Buys" version="21.7.2" type="device">
+  <diagram name="Page-1" id="4mm5Dc5GJQANgXR34ngz">
+    <mxGraphModel dx="1590" dy="1003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-1" value="FIM" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="690" y="670" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-2" target="ozlu1Fu9SxyRXijLrFA8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-2" value="INICIO" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="280" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-3" target="ozlu1Fu9SxyRXijLrFA8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-3" value="DECLARE raio, comprimento, area e volume" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-4" target="ozlu1Fu9SxyRXijLrFA8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-4" value="DECLARE PI = 3.14" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-7" target="ozlu1Fu9SxyRXijLrFA8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-7" value="&quot;Informe o raio da esfera&quot;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-8" target="ozlu1Fu9SxyRXijLrFA8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-8" target="ozlu1Fu9SxyRXijLrFA8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-8" target="ozlu1Fu9SxyRXijLrFA8-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-8" value="LEIA raio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-11" target="ozlu1Fu9SxyRXijLrFA8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-11" value="&lt;div&gt;area = 4 * PI * raio**2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="670" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-13" target="ozlu1Fu9SxyRXijLrFA8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-13" value="comprimento = 2 * PI * raio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="580" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-14" target="ozlu1Fu9SxyRXijLrFA8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-14" value="volume = 4/3 * PI * R**3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="760" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ozlu1Fu9SxyRXijLrFA8-17" target="ozlu1Fu9SxyRXijLrFA8-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ozlu1Fu9SxyRXijLrFA8-17" value="&lt;div&gt;&quot;O comprimento da esfera informada é {comprimento}&lt;/div&gt;&lt;div&gt;A área da esfera informada é {area}&lt;/div&gt;&lt;div&gt;O volume da esfera informada é {volume}&quot;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.17647058823529413;" vertex="1" parent="1">
+          <mxGeometry x="440" y="615" width="220" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
