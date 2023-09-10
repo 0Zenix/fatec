@@ -13,7 +13,8 @@ int main() {
 
   int select; 
   std::cout << "Escolha uma operação" << std::endl 
-            << " [1] Média [2] Diferença [3] Produto [4] Divisão" << std::endl;
+            << " [1] Média [2] Diferença [3] Produto [4] Divisão" 
+            << " [5] Potência [7] Raiz Quadrada [8] Raiz cúbica"  << std::endl;
   std::cin >> select;
 
   switch (select)
@@ -48,7 +49,17 @@ int main() {
         std::cin >> num2;
       }
       break;
-
+    case 5:
+      std::cout << "O primeiro número elavado ao segundo é: " <<  pow(num1, num2) << std::endl;
+      break;
+    case 6:
+      std::cout << "A raiz quadrado do primeiro é: " << sqrt(num1) 
+                << "e a raiz do segundo é: " << sqrt(num2) << std::endl;
+      break;
+    case 7:
+      std::cout << "A raiz cúbica do primeiro é: " << cbrt(num1) 
+                << "e a raiz do segundo é: " << cbrt(num2) << std::endl;    
+      break;
     default:
       std::cout << "Opção inválida" << std::endl;
       break;
