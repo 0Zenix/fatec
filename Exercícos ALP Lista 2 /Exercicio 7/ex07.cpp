@@ -1,7 +1,7 @@
 #include <iostream>
 
-
-long factorial(int number) {
+//Calculadora de série
+float factorial(int number) {
   int fatorial = 1;
 
   for (int i = 1; i <= number; i++) {
@@ -12,12 +12,13 @@ long factorial(int number) {
 }
 
 int main() {
+  // acc = acumulador/soma
   float acc = 0;
-  float division = 19;
-  int target = 10;
+  float div = 19;
+  int fat_alvo = 10;
 
-  for (int n = target; n > 0; n--, division -= 2) {
-    acc += factorial(n) * 10 / division;
+  for (int num = fat_alvo; num > 0; num--, div -= 2) {
+    acc += factorial(num) / div;
   }
   
   std::cout << acc << std::endl;
