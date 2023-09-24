@@ -1,10 +1,10 @@
 #include <iostream>
 
 
-float factorial(float number) {
-  float fatorial = 1;
+long factorial(int number) {
+  int fatorial = 1;
 
-  for (double i = 1; i <= number; i++) {
+  for (int i = 1; i <= number; i++) {
     fatorial *= i;
   }
   
