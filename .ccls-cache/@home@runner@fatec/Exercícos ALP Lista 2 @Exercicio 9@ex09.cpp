@@ -11,7 +11,7 @@ int main() {
   int total_idosos = 0;
 
   // Percentual de criancas menores ou igual a 12 e altura superior a 1.20
-  float percentual_criancas = 0;
+  float percentual_meninas = 0;
 
   int rodando = 1; // 1 = rodando, outros = parado
 
@@ -20,7 +20,7 @@ int main() {
     std::string sexo = "";
     float peso = 0;
     float altura = 0;
-    std::string acompanhante = "";
+    int acompanhante = 0;
 
     std::cout << "Digite a idade do paciente: ";
     std::cin >> idade;
@@ -34,9 +34,8 @@ int main() {
     std::cout << "Digite a altura do paciente: ";
     std::cin >> altura;
 
-    std::cout << "Digite o nome do acompanhante, deixe vazio se não houver"
-              << std::endl;
-    std::getline(std::cin, acompanhante);
+    std::cout << "Esse paciente possuí acompanhante? [1] Sim [0] Não: ";
+    std::cin >> acompanhante;
 
     total_pacientes += 1;
 
@@ -49,7 +48,7 @@ int main() {
 
     if (sexo[0] == 'F' || sexo[0] == 'f') {
 
-      if (idade < 20 && !acompanhante.empty()) {
+      if (idade < 20 && acompanhante == 0 ) {
         mulheres_jovens += 1;
       }
 
@@ -65,9 +64,13 @@ int main() {
       total_idosos += 1;
     }
 
-    std::cout << "Deseja adicionar um novo paciente? [1] Sim [0] Não"
-              << std::endl;
+    std::cout << "Deseja adicionar um novo paciente? [1] Sim [0] Não: ";
     std::cin >> rodando;
+  }
+
+  if (total_meninas != 0) 
+  {
+    percentual_meninas = total_meninas_alt / total_meninas;
   }
 
   std::cout << "O total de paciente atendidos: " << total_pacientes
@@ -79,5 +82,5 @@ int main() {
   std::cout << "O total de pacientes idosos: " << total_idosos << std::endl;
   std::cout << "O percentual de meninas menores de 12 anos e com altura "
                "superior a 1.20 é de: "
-            << (total_meninas_alt / total_meninas) * 100.0 << "%";
+            << percentual_meninas * 100.0 << "%" << std::endl;
 }
